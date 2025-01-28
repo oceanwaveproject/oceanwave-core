@@ -1,0 +1,52 @@
+{
+  "name": "@oceanwave/core",
+  "description": "Core Modules for OCEANWAVE App",
+  "version": "0.0.1",  
+  "author": "orbitgw <orbitgw@foxmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/oceanwavejs/oceanwave-core#readme",
+  "main": "index.mjs",
+  "types": "typings/index.d.mts",
+  "type": "module",
+  "engines":{
+    "node":">=18.20.4"
+  },
+  "scripts": {
+    "build:dts": "tsc",
+    "clean": "rm -rf ./test/logs"
+  },
+  "keywords": [
+    "esm",
+    "es2015",
+    "ow",
+    "ow-core",
+    "oceanwave",
+    "oceanwave-core"
+  ],
+  "files":[
+    "lib",
+    "docs",
+    "typings",
+    "index.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "directories": {
+    "doc": "docs",
+    "lib": "lib",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oceanwavejs/oceanwave-core.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oceanwavejs/oceanwave-core/issues"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  }
+}
